@@ -1,0 +1,28 @@
+.list3{
+  .hoverJs_Element {
+    border: 2px solid #EF6C00;
+    transition: all 0.5s;
+    border-radius: 10rem;
+    &.the_parent_leave{
+      background-color: #FFB74D;
+    }
+  }
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  li{
+    z-index: 2;
+  }
+
+  a{
+    font-size: 18px;
+    display: block;
+    padding: 8px 20px;
+    border-radius: 20px;
+  }
+
+
+}

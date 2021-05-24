@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/Vazir.eot');
+  src: local('../fonts/Vazir'), url('../fonts/Vazir.woff') format('woff'), url('../fonts/Vazir.ttf') format('truetype'), url('../fonts/Vazir.svg') format('svg');
+}
+#body-p{
+    font-family: "Vazir";
+    direction: rtl;
+    background: #c6c9c9;
+    color: #4f585e;
+    text-rendering: optimizeLegibility;
+}
+#content-page{
+    margin: 40px 100px 20px 100px;
+    border: rgba(194, 106, 47, 0.849) 4px solid;
+    border-radius: 10px;
+    background: #e2e6e6;
+    text-align: right;
+    padding: 22px;
+}
+#img-box-page{
+    text-align: center;
+    padding: 20px;
+}
+#img-p{
+    border: rgba(196, 104, 43, 0.849) 4px solid;
+    border-radius: 10px;
+    width: 600px;
+}
+#download-book{
+    margin: 40px 100px 20px 100px;
+    border:green solid 2px ;
+    border-radius: 10px;
+    background-color: rgba(101, 228, 107, 0.74);
+    text-align: right;
+    padding: 22px;
+    text-align: center;
+ 
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-family: Vas;
+    font-size: bold;
+}
+p{
+    font-size: 20px;
+}

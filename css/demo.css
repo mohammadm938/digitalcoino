@@ -1,0 +1,27 @@
+.list3 {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list3 li {
+  z-index: 2;
+}
+.list3 a {
+  color: #880E4F;
+  font-size: 18px;
+  display: block;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+.list3 .hoverJs_Element {
+  border: 2px solid #FFA726;
+  transition: all 0.5s;
+  border-radius: 10rem;
+}
+.list3 .hoverJs_Element.the_parent_leave {
+  background-color: #E65100;
+}
+
+/*# sourceMappingURL=demo.css.map */

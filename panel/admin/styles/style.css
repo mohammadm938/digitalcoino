@@ -1,0 +1,119 @@
+@import 'reset.css';
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body {
+    direction: rtl;
+    font-family: vazirNormal;
+    background-color: #f0f0f0;
+}
+
+.conteiner{
+    width: 1100px;
+    margin: auto;
+}
+
+/* Navigation */
+#nav{
+    background-color: #212121;
+    margin-top: 20px;
+}
+#nav ul li{
+    display: inline-block;
+    padding: 17px 17px ;
+    transition: 0.25s;
+}
+#nav ul li:hover{
+    background-color: #444444;
+    transition: 0.25s;
+
+}
+#nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+#nav ul .active{
+    background-color: #444444;
+}
+
+/* Section */
+#profile{
+    margin-top: 20px;
+}
+#profile .profile-pic{
+    text-align: center;
+    background-size: cover;
+    backface-visibility: inherit;
+    opacity: 0.9;
+    height: 200px;
+    width: auto;
+}
+#profile .profile-pic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: black;
+    box-shadow: #1f1e1e 0px 0px 60px 10px;
+    margin-top: 20px; 
+}
+#profile .profile-pic h2{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#info-form{
+    margin-top: 20px;
+    padding: 10px;
+}
+#info-form .form{
+    padding: 10px;
+    width: 1100px;
+}
+#info-form .info-inputs{
+    margin-top: 40px;
+    display: inline-block;
+}
+#info-form .info-inputs:nth-child(even){
+    margin-right: 20%;
+}
+#info-form .labels{
+    font-size: 20px;
+    margin-left: 0px;
+}
+#info-form .inputs{
+    background-color: rgb(199, 191, 191);
+    color:black;
+    font-size: 18px;
+    padding: 4px 18px;
+    font-family: vazirNormal;
+    border: none;
+    border-radius: 6px;
+    width: 262px;
+}
+
+/* Aside */
+#aside{
+    margin-top: 40px;
+}
+#aside .editInfo{
+    text-align: center;
+}
+#aside .editInfo a{
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 14px;
+    background-color: rgb(54, 54, 221);
+}
+/* Footer */
+#footer{
+    margin-top: 20px;
+    background-color: #212121;
+    color: #fff;
+    padding: 10px 14px;
+    text-align: center;
+}
